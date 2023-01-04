@@ -1,0 +1,77 @@
+* {
+    background-color: white;
+}
+
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 500px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px lightcyan;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid;
+}
+
+section {
+    padding: 5px;
+}
+
+.post-data {
+    display: flex;
+}
+
+.ul-el {
+    list-style-type: none;
+    padding:0;
+}
+
+main span {
+    font-weight: bold;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.user-avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+section .user-avatar {
+    padding: 10px;
+}
+
+.post {
+    width: 500px;
+}
+
+.icons {
+    padding: 10px;
+}
+
+.icon {
+    width: 2rem;
+    padding: 5px;
+}
+
+
+.likes, .comment {
+    padding-left: 20px;
+}
+
+.comment {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 3rem
+}
+
